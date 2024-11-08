@@ -10,7 +10,7 @@
 	"scripts": {
 		"lint": "eslint src/*",
 		"prepublish": "npm run build",
-		"build": "microbundle --jsx React.createElement --external react,roughjs && build-storybook -c .storybook -o public",
+		"build": "microbundle --jsx React.createElement --external react,roughjs",
 		"prebuild": "rimraf build dist",
 		"storybook": "start-storybook -p 6006 -c .storybook",
 		"prettier": "prettier --write '{src,__tests__}/*.tsx' '{src,__tests__}/*.ts'"
