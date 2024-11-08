@@ -88,4 +88,5 @@ export const ReactRough: React.FC<RoughCompProps> = React.forwardRef(
 ReactRough.displayName = 'ReactRough';
 
 export * from './RoughComponents';
+export { RoughContext };
 export default ReactRough;
